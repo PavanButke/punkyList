@@ -1,0 +1,309 @@
+.main{
+    max-height: 50vh ;
+}
+
+.mainContent {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.punkHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punkContainer {
+    border-radius: 20px ;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+.selectedPunk{
+    object-fit: contain;
+    max-width: min(30vw , 40vh);
+    max-height: 30vw;
+}
+
+
+
+.punkDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:0.75;
+}
+
+
+.title{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.itemNumber{
+    color:#3f729b;
+    font-size: 72px;
+    font-weight: 600;
+    align-self: left;
+}
+
+.owner{
+
+}
+
+.owner > div{
+    margin: 0 0px;
+}
+
+
+.ownerImageContainer {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+
+}
+
+.ownerImageContainer >img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails{
+    display: flex;
+    align-items: center;
+    
+    flex:1;
+
+}
+
+.ownerNameAndHandle{
+  
+    flex:1;
+    color: white;
+    
+}
+.ownerHandle {
+    color: #3b5998;
+}
+
+.ownerUID {
+
+      color: white;
+}
+
+.main{
+    max-height: 50vh ;
+}
+
+.mainContent {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.punkHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punkContainer {
+    border-radius: 20px ;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+.selectedPunk{
+    object-fit: contain;
+    max-width: min(30vw , 40vh);
+    max-height: 30vw;
+}
+
+
+
+.punkDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:0.75;
+}
+
+
+.title{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.itemNumber{
+    color:#3f729b;
+    font-size: 72px;
+    font-weight: 600;
+    align-self: left;
+}
+
+.owner{
+
+}
+
+.owner > div{
+    margin: 0 0px;
+}
+
+
+.ownerImageContainer {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+
+}
+
+.ownerImageContainer >img{
+
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails{
+    display: flex;
+    align-items: center;
+    
+    flex:1;
+
+}
+
+.ownerNameAndHandle{
+  
+    flex:1
+    
+}
+.ownerHandle {
+    color: #3b5998;
+}
+
+.ownerUID {
+
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 150px;
+
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border-radius: 30%;
+    margin: 10px;
+    margin-top: 100px;
+    box-shadow: 0 3px 5px rgba(130, 163, 196, 0.823);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    color: grey;
+    
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .icon i {
+    font-size: 20px;
+    transition: all .2s;
+  }
+  
+  a.icon>i.facebook {
+    color: #3b5998;
+  }
+  
+  a.icon>i.twitter {
+    color: #00acee;
+  }
+  
+  a.icon>i.instagram {
+    color: #3f729b;
+  }
+  
+  a.icon>i.google {
+    color: #db3236;
+  }
+  
+  a.icon>i.linkedin {
+    color: #0e76a8;
+  }
+  
+  .icon:hover i {
+    transform: scale(1.3);
+    color: white !important;
+  }
+  
+  .icon:before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top:  90%;
+    left: -110%;
+    background-color: #74b9ff;
+    transform: rotate(45deg);
+  }
+  
+  .icon:hover:before {
+    animation: animation .7s 1 forwards;
+  }
+  
+  
+  
+  @keyframes animation {
+    0% {
+      top: 90%;
+      left: -110%;
+    }
+    
+    50% {
+      top: -30%;
+      left: 15%;
+    }
+    
+    100% {
+      top: -10%;
+      left: -10%;
+    }
+  }
